@@ -1,0 +1,68 @@
+.container {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info-text {
+    width: 360px;
+    display: grid;
+    justify-content: center;
+    place-items: end center;
+    padding: 0.5rem;
+}
+
+.info-text h3{
+    margin: -0.0675rem;
+}
+
+.grid {
+    border: 1px solid black;
+    height: 360px;
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5rem;
+}
+
+.grid div {
+    width: 40px;
+    height: 40px;
+}
+
+.ending-block {
+    background-color: red;
+}
+
+.starting-block {
+    background-color: blue;
+}
+
+
+.car-left, .car-right {
+    background-color: lightgray;
+}
+
+
+.l1, .l2, .l3 {
+    background-color: brown;
+}
+
+.l4, .l5 {
+    background-color: lightblue;
+}
+
+.c1 {
+    background-color: black;
+}
+
+.c2, .c3 {
+    background-color: lightgrey;
+}
+
+.frog {
+    background-color: green !important;
+}

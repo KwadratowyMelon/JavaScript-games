@@ -1,0 +1,58 @@
+.container {
+    background-color: antiquewhite;
+    border: 2px solid green;
+    border-radius: 10%;
+    width: 84vh;
+}
+
+.info-container {
+    text-align: center;
+    width: 78vh;
+}
+
+.info-container h2 {
+    display: inline-block;
+}
+
+.grid {
+    display: flex;
+    width: 78vh;
+    height: 78vh;
+    flex-wrap: wrap;
+    margin: 3vh;
+    cursor: url("hammer-64.png"), default;
+}
+
+.square {
+    background-color: greenyellow;
+    width: 25vh;
+    height: 25vh;
+    border: solid black 0.5vh;
+    display: grid;
+    grid-template-columns: 25vh;
+    grid-template-rows: 12.5vh;
+    justify-content: center;
+    place-items: end center;
+}
+
+.mole {
+    width: 12vh;
+    height: 12vh;
+    padding: 6.5vh;
+    margin-bottom: -12vh;
+    background-image: url('bussinessman.png');
+    background-size: 12vh;
+    background-repeat: no-repeat;
+    background-position: bottom 2.5vh right 6.5vh;
+    z-index: 1;
+}
+
+.ellipse {
+    background-color: black;
+    border: solid green 1.5vh;
+    border-radius: 50%;
+    width: 15vh;
+    height: 6vh;
+    position: absolute;
+    z-index: 0;
+}
